@@ -24,7 +24,7 @@
     </div>
     <hr>
     <div class="skills">
-        <h3>Soft skills:</h3>
+        <h3>Hard skills:</h3>
         <ul>
             <li>HTML5, CSS3</li>
             <li>JavaScript Basics</li>
