@@ -26,13 +26,22 @@
 <hr>
 <div class="code-examples">
     <h3>Code examples:</h3>
+    <code>
+        function multiply(a, b){<br>
+            return a * b;<br>
+          }
+    </code>
 </div>
 <hr>
 <div class="projects">
     <h3>My projects:</h3>
+    <ul>
+        <li>My CV: <a href="https://PurrrpleOrange.github.io/rsschool-cv/cv">cv</a></h4></li>
+    </ul>
 </div>
 <hr>
 <div class="education">
+    <h3>Education</h3>
     <ul>
         <li>
             Russian Technological university - RTU MIREA: Software Engineering (in progress)
