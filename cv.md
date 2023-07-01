@@ -36,7 +36,7 @@
 <div class="projects">
     <h3>My projects:</h3>
     <ul>
-        <li>My CV: <a href="https://PurrrpleOrange.github.io/rsschool-cv/cv">cv</a></li>
+        <li><a href="https://PurrrpleOrange.github.io/rsschool-cv/cv">My CV</a></li>
     </ul>
 </div>
 <hr>
