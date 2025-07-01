@@ -6,13 +6,12 @@
 - GitHub: [purrrpleorange](https://github.com/purrrpleorange)
 - Discord: PurrpleOrange
 - Discord rs-school: Akhmat Latyev (`@PurrrpleOrange`)
-
-
+&nbsp;
+&nbsp;
 ## 👾 About me
-
 ![alt text](image-1.png)
-
-
+&nbsp;
+&nbsp;
 ## 🛠️ Skills
 - ☕ Java SE 17
 - 🌱 Spring Boot (In progress...)
@@ -21,8 +20,8 @@
 - 🎨 Frontend basics: HTML, CSS, JavaScript (ES6), React (basic), Bootstrap
 - 💻 IntelliJ IDEA, VS Code, Maven, Postman
 - 🗂️ UML, BPMN, IDEF0
-
-
+&nbsp;
+&nbsp;
 ## 🧾 Code exmaples
 ```
 const filteredDeliveries = deliveries.filter(d => {
@@ -37,7 +36,8 @@ const filteredDeliveries = deliveries.filter(d => {
     return matchesQuery && matchesDate;
   });
   ```
-
+&nbsp;
+&nbsp;
 ## 🧑‍💼 Experience
 
 ## 📂 Projects
@@ -74,8 +74,8 @@ _Bachelor’s Degree in Software Engineering_
 Faculty of Information Technologies, Department of Corporate Information Systems  
 📍 Moscow, Russia  
 📅 2021 – 2025
-
-
+&nbsp;
+&nbsp;
 ## 🌍 Languages
 
 - Russian — native  
