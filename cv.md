@@ -5,7 +5,8 @@
 - Telegram: [@purrpleorange](https://t.me/purrpleorange)
 - GitHub: [purrrpleorange](https://github.com/purrrpleorange)
 - Discord: PurrpleOrange
-- Discord rs-school: Akhmat Latyev (@PurrrpleOrange)  
+- Discord rs-school: Akhmat Latyev (@PurrrpleOrange)
+
 ---
 ## 👾 About me
 
