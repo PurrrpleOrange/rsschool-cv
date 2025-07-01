@@ -1,5 +1,5 @@
 # Akhmat Latyev
----
+
 ## 📞 Contact Information
 - Email: latyev.me@gmail.com  
 - Telegram: [@purrpleorange](https://t.me/purrpleorange)
@@ -7,12 +7,12 @@
 - Discord: PurrpleOrange
 - Discord rs-school: Akhmat Latyev (`@PurrrpleOrange`)
 
----
+
 ## 👾 About me
 
 ![alt text](image-1.png)
 
----
+
 ## 🛠️ Skills
 - ☕ Java SE 17
 - 🌱 Spring Boot (In progress...)
@@ -22,7 +22,7 @@
 - 💻 IntelliJ IDEA, VS Code, Maven, Postman
 - 🗂️ UML, BPMN, IDEF0
 
----
+
 ## 🧾 Code exmaples
 ```
 const filteredDeliveries = deliveries.filter(d => {
@@ -37,7 +37,7 @@ const filteredDeliveries = deliveries.filter(d => {
     return matchesQuery && matchesDate;
   });
   ```
----
+
 ## 🧑‍💼 Experience
 
 ## 📂 Projects
@@ -66,7 +66,7 @@ Developed as a final qualification project during studies at RTU MIREA.
 
 > 🔸 Authentication with JWT was planned but not implemented due to deadline constraints.
 
----
+
 ## 🎓 Education
 
 **RTU MIREA – Russian Technological University**  
@@ -75,7 +75,7 @@ Faculty of Information Technologies, Department of Corporate Information Systems
 📍 Moscow, Russia  
 📅 2021 – 2025
 
----
+
 ## 🌍 Languages
 
 - Russian — native  
