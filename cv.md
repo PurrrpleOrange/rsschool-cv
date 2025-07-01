@@ -65,8 +65,8 @@ Developed as a final qualification project during studies at RTU MIREA.
 - Full technical documentation: ER diagrams, endpoint specs, and architecture overview
 
 > 🔸 Authentication with JWT was planned but not implemented due to deadline constraints.
-
-
+&nbsp;
+&nbsp;
 ## 🎓 Education
 
 **RTU MIREA – Russian Technological University**  
