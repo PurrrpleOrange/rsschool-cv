@@ -4,8 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-javascript.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -18,20 +28,24 @@
             <li><a href="#languages">Languages</a></li>
         </ul>
     </nav>
+
     <header>
-        <h1>Akhmat Latyev</h1>
-        <img src="image-1.png" alt="My photo" />
-    </header>
+        <div class="header-container">
+            <img src="image-1.png" alt="This is me">
+            <h1>Hi, I'm Akhmat</h1>
+            <div class="contact" id="contact">
+            <ul>
+                <li><i class="fa-brands fa-github"></i> <a href="https://github.com/purrrpleorange">purrrpleorange</a></li>
+                <li><i class="fa-brands fa-telegram"></i> <a href="https://t.me/purrpleorange">@purrpleorange</a></li>
+                <li><i class="fa-solid fa-envelope"></i> <a href="mailto:latyev.me@gmail.com">latyev.me@gmail.com</a></li>
+            </ul>
+            </div>
+        </div>
+</header>
+
+
     
     <main>
-         <section class="contact" id="contact">
-            <h2>📞 Contact Information</h2>
-            <ul>
-                <li>Email: <a href="mailto:latyev.me@gmail.com">latyev.me@gmail.com</a></li>
-                <li>Telegram: <a href="https://t.me/purrpleorange">@purrpleorange</a></li>
-                <li>GitHub: <a href="https://github.com/purrrpleorange">purrrpleorange</a></li>
-            </ul>
-         </section>
         <section class="about-me"> 
             <h2>👾 About me</h2>
             <p>I’m an aspiring backend developer with a solid foundation in Java and PostgreSQL. I recently graduated from RTU MIREA with a degree in Software 
@@ -41,22 +55,28 @@
         </section>
         <section class="skills" id="skills">
             <h2>🛠️ Skills</h2>
-            <p>skills text</p>
-            <ul>
-                <li>Java SE 17</li>
-                <li>Spring Boot</li>
-                <li>PostgreSQL</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JS</li>
-                <li>React</li>
-                <li>Git</li>
-                <li>UML, BPMN, IDEF0</li>
-            </ul>
+                <div class="skills-columns">
+                <div class="skills-block">
+                    <ul>
+                    <li>Java SE 17</li>
+                    <li>Spring Boot</li>
+                    <li>PostgreSQL</li>
+                    <li>Git</li>
+                    </ul>
+                </div>
+                <div class="skills-block">
+                    <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    </ul>
+                </div>
+                </div>
+
         </section>
-        <section class="code-example" id="code">
+        <section class="code-example language-javascript" id="code">
             <h2>🧾 Code exmaples</h2>
-            <p>code text</p>
             <pre><code>const filteredDeliveries = deliveries.filter(d => {
     const lowerQuery = searchQuery.toLowerCase();
     const matchesQuery =
@@ -75,10 +95,8 @@
                 <p>A full-stack Supplier Relationship Management system for an online bicycle store. Developed as a final qualification project during studies at RTU MIREA.</p>
                 <p><strong>📅</strong> Feb 2025 – Jun 2025<br>
                     <strong>🧑‍💻 Tech stack:</strong> Java SE 17, Spring Boot 3, PostgreSQL, React, REST API</p>
-                <p><strong>GitHub Repositories:</strong><br>
-                    <a href="https://github.com/PurrrpleOrange/srm-backend"> 🔗 Backend</a><br>
-                    <a href="https://github.com/PurrrpleOrange/srm-frontend">🔗 Frontend</a>
-                </p>
+                    <div><a href="https://github.com/PurrrpleOrange/srm-backend"> <i class="fa-brands fa-github"></i> Backend</a></div>
+                    <div><a href="https://github.com/PurrrpleOrange/srm-frontend"><i class="fa-brands fa-github"></i> Frontend</a></div>
                 <ul>
                     <li>RESTful API for managing suppliers, products, supply requests, deliveries, and returns</li>
                     <li>Relational PostgreSQL database with normalized schema, foreign keys, and constraints</li>
@@ -88,7 +106,6 @@
                     <li>Business process modeling in BPMN and IDEF0 for system documentation</li>
                     <li>Full technical documentation: ER diagrams, endpoint specs, and architecture overview</li>
                 </ul>
-                <blockquote>🔸 Authentication with JWT was planned but not implemented due to deadline constraints.</blockquote>
         </section>
          <section class="education" id="education">
             <h2>🎓 Education</h2>
