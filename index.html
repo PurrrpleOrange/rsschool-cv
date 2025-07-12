@@ -4,8 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-javascript.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
-    <p>test</p>
-</body>
-</html>
+    <nav>
+        <ul>
+            <li><a href="#contact">Contact Information</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code">Code Examples</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+        </ul>
+    </nav>
+
+
+
+    <header>
+        <div class="header-container">
+            <img src="image-1.png" alt="This is me">
+            <h1>Hi, I'm Akhmat</h1>
+            <div class="contact" id="contact">
+            <ul>
+                <li><i class="fa-brands fa-github"></i> <a href="https://github.com/purrrpleorange">purrrpleorange</a></li>
+                <li><i class="fa-brands fa-telegram"></i> <a href="https://t.me/purrpleorange">@purrpleorange</a></li>
+                <li><i class="fa-solid fa-envelope"></i> <a href="mailto:latyev.me@gmail.com">latyev.me@gmail.com</a></li>
+            </ul>
+            </div>
+        </div>
+    </header>
+
+
+    
+    <main>
+        <section class="about-me"> 
+            <h2>👾 About me</h2>
+            <p>I’m an aspiring backend developer with a solid foundation in Java and PostgreSQL. I recently graduated from RTU MIREA with a degree in Software 
+            Engineering and completed a full-stack SRM system as my diploma project. Currently, I’m focused on deepening my Spring Boot skills and working on 
+            pet projects to gain real-world experience. I’m also learning frontend technologies like React and Bootstrap to better understand full-stack development.  
+            Actively looking for my first job or internship in backend development.</p>
+        </section>
+        <section class="skills" id="skills">
+            <h2>🛠️ Skills</h2>
+                <div class="skills-columns">
+                <div class="skills-block">
+                    <ul>
+                        <li>Java SE 17</li>
+                        <li>Spring Boot</li>
+                        <li>PostgreSQL</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+                <div class="skills-block">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                    </ul>
+                </div>
+                </div>
+
+        </section>
+        <section class="code-example language-javascript" id="code">
+            <h2>🧾 Code exmaples</h2>
+            <pre><code>const filteredDeliveries = deliveries.filter(d => {
+    const lowerQuery = searchQuery.toLowerCase();
+    const matchesQuery =
+      (d.status || '').toLowerCase().includes(lowerQuery) ||
+      (d.request?.documentNumber || '').toLowerCase().includes(lowerQuery) ||
+      (d.request?.supplierName || '').toLowerCase().includes(lowerQuery) ||
+      (d.documentNumber || '').toLowerCase().includes(lowerQuery);
+
+    const matchesDate = !dateFilter || d.deliveryDate === dateFilter;
+    return matchesQuery && matchesDate;
+  });</code></pre>
+        </section>
+        <section class="projects" id="projects">
+            <h2>📂 Projects</h2>
+                <h3>📦 SRM System — Full-Stack Web Application (Diploma Project)</h3>
+                <p>A full-stack Supplier Relationship Management system for an online bicycle store. Developed as a final qualification project during studies at RTU MIREA.</p>
+                <p><strong>📅</strong> Feb 2025 – Jun 2025<br>
+                    <strong>🧑‍💻 Tech stack:</strong> Java SE 17, Spring Boot 3, PostgreSQL, React, REST API</p>
+                    <div><a href="https://github.com/PurrrpleOrange/srm-backend"> <i class="fa-brands fa-github"></i> Backend</a></div>
+                    <div><a href="https://github.com/PurrrpleOrange/srm-frontend"><i class="fa-brands fa-github"></i> Frontend</a></div>
+                <ul>
+                    <li>RESTful API for managing suppliers, products, supply requests, deliveries, and returns</li>
+                    <li>Relational PostgreSQL database with normalized schema, foreign keys, and constraints</li>
+                    <li>Layered backend architecture with clear separation: controller → service → repository</li>
+                    <li>React frontend with Bootstrap components and integration via axios</li>
+                    <li>Multi-role access system (ADMIN, MANAGER, WAREHOUSE)</li>
+                    <li>Business process modeling in BPMN and IDEF0 for system documentation</li>
+                    <li>Full technical documentation: ER diagrams, endpoint specs, and architecture overview</li>
+                </ul>
+        </section>
+         <section class="education" id="education">
+            <h2>🎓 Education</h2>
+            <p><strong>RTU MIREA – Russian Technological University</strong>
+            <br>
+            Bachelor’s Degree in Software Engineering<br>
+            Faculty of Information Technologies, Department of Corporate Information Systems
+            <br>
+            📍 Moscow, Russia<br>
+            📅 2021 – 2025</p>
+         </section>
+        <section class="languages" id="languages">
+            <h2>🌍 Languages</h2>
+            <ul>
+                <li>Russian — native</li>
+                <li>English — B1 (Intermediate): can read technical documentation and communicate in writing</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div>© 2025 Akhmat Latyev</div>
+        <div><i class="fa-brands fa-github"></i><a href="https://github.com/purrrpleorange">purrrpleorange</a></div>
+        <div><a href="https://rs.school/courses/javascript-ru">
+            <img src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/b26a2d42335feffe9cfc3d73accdf61e420917da/tasks/cv/rs-school-logo.svg" alt="rs-school-logo">
+        </a>
+        </div>
+    </footer>
